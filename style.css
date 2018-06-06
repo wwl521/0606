@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    -webkit-appearance: none;
+}
+
+body {
+    font-size: 0.3rem;
+}
+
+body,
+html,
+.wrap {
+    width: 100%;
+    height: 100%;
+    background: #e8e8e8;
+    overflow: hidden;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    height: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.9rem;
+    padding: 0 2%;
+    box-sizing: border-box;
+    background: #fff;
+    margin-bottom: 0.3rem;
+}
+
+.header a {
+    color: #999999;
+    text-decoration: none;
+}
+
+.cont {
+    width: 100%;
+    flex: 1;
+    overflow: auto;
+    background: #fff;
+}
+
+.cont .section {
+    width: 100%;
+    height: 1.76rem;
+    line-height: 1.76rem;
+    padding: 0.26rem;
+    box-sizing: border-box;
+    border-bottom: solid 1px #ccc;
+}
+
+.cont .section dl {
+    display: flex;
+}
+
+.cont .section dl dt {
+    width: 1.2rem;
+    height: 1.2rem;
+    background: #e8e8e8;
+    border-radius: 50%;
+    text-align: center;
+    text-align: center;
+    line-height: 1.2rem;
+}
+
+.cont .section dl dt i {
+    font-size: 0.7rem;
+}
+
+.cont .section dl dd {
+    padding-left: 5%;
+    box-sizing: border-box;
+}
+
+.cont .section dl dd h4 {
+    font-size: 0.3rem;
+    color: #333333;
+    line-height: 1rem;
+}
+
+.cont .content {
+    width: 100%;
+}
+
+.cont .content dl {
+    width: 100%;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    display: flex;
+}
+
+.cont .content dl dt {
+    width: 20%;
+    height: 1.2rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.cont .content dl dt img {
+    width: 0.42rem;
+    height: 0.42rem;
+}
+
+.cont .content dl dd {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2%;
+    box-sizing: border-box;
+    border-bottom: solid 1px #ccc;
+}
+
+.cont .content dl dd h5 {
+    font-size: 0.3rem;
+}
+
+.cont .content dl dd i {
+    font-weight: bolder;
+}
+
+.footer {
+    width: 100%;
+    height: 1.18rem;
+    line-height: 1.18rem;
+    background: #313131;
+}
+
+.footer ol {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+    box-sizing: border-box;
+}
+
+.footer ol li {
+    color: #fff;
+}
+
+.footer ol>li:nth-child(2) {
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #636363;
+    line-height: 0.3rem;
+    text-align: center;
+    margin-top: 0.3rem;
+}
+
+.footer ol>li>ul {
+    line-height: 0.6rem;
+}
